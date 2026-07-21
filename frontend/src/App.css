@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;500;600;700&display=swap');
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #F7F8F0;
+}
+
+h1 {
+  color: #355872;
+  font-weight: 600;
+}
+
+.subtitle {
+  color: #355872;
+  opacity: 0.75;
+  margin-bottom: 2rem;
+}
+
+.query-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.question-input {
+  padding: 0.75rem;
+  font-size: 1rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  border: 1px solid #7AAACE;
+  border-radius: 6px;
+  background-color: white;
+  color: #355872;
+}
+
+.question-input:focus {
+  outline: none;
+  border-color: #355872;
+}
+
+.pipeline-selector {
+  display: flex;
+  gap: 1.5rem;
+  color: #355872;
+}
+
+.pipeline-selector label {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  cursor: pointer;
+}
+
+button {
+  padding: 0.75rem;
+  font-size: 1rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 500;
+  background: #355872;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+button:hover:not(:disabled) {
+  background: #7AAACE;
+}
+
+button:disabled {
+  background: #9CD5FF;
+  color: #355872;
+  cursor: not-allowed;
+}
+
+.error {
+  color: #c0392b;
+  margin-bottom: 1rem;
+}
+
+.result {
+  border: 1px solid #7AAACE;
+  border-radius: 8px;
+  padding: 1.5rem;
+  background-color: white;
+}
+
+.result h3,
+.result h4 {
+  color: #355872;
+}
+
+.answer-text {
+  white-space: pre-wrap;
+  line-height: 1.5;
+  color: #333;
+}
+
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-size: 0.85rem;
+  color: #7AAACE;
+  margin: 1rem 0;
+  padding: 0.75rem;
+  background-color: #F7F8F0;
+  border-radius: 6px;
+}
+
+.meta strong {
+  color: #355872;
+}
+
+.sources-list {
+  font-size: 0.9rem;
+  color: #355872;
+}
+
+.sources-list li {
+  margin-bottom: 0.25rem;
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What are the Five Pillars of Islam?",
+    "expected_section": "Acts of worship",
+    "type": "easy_factual"
+  },
+  {
+    "question": "What is Ramadan and what does fasting during it involve?",
+    "expected_section": "Acts of worship > Fasting",
+    "type": "easy_factual"
+  },
+  {
+    "question": "What percentage of the global population is Muslim as of 2020?",
+    "expected_section": "Demographics",
+    "type": "easy_factual"
+  },
+  {
+    "question": "What is the difference between Sunni and Shia beliefs about succession after Muhammad?",
+    "expected_section": "Main branches or denominations",
+    "type": "comparison"
+  },
+  {
+    "question": "What is Sufism?",
+    "expected_section": "Mysticism > Sufism",
+    "type": "easy_factual"
+  },
+  {
+    "question": "What is Zakat and how is it calculated?",
+    "expected_section": "Acts of worship > Almsgiving",
+    "type": "easy_factual"
+  },
+  {
+    "question": "What is the capital of France?",
+    "expected_section": null,
+    "type": "out_of_scope"
+  },
+  {
+    "question": "What is the population of penguins in Antarctica?",
+    "expected_section": null,
+    "type": "out_of_scope"
+  }
+]

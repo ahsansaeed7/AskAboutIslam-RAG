@@ -1,0 +1,31 @@
+question,type,expected_section,answer,retrieved_sources,manual_correct,manual_grounded,notes
+What are the Five Pillars of Islam?,easy_factual,Acts of worship,"According to the provided context, the Five Pillars of Islam are:
+
+1. Shahada
+2. Salah
+3. Zakat
+4. Sawm
+5. Hajj
+
+These are mentioned in the [Section: Beliefs and practices] section.",Beliefs and practices,,,
+What is Ramadan and what does fasting during it involve?,easy_factual,Acts of worship > Fasting,"Based on Section: [No specific section mentioned for Ramadan], I can tell you that one of the Five Pillars of Islam is Sawm. According to this pillar, fasting during Ramadan involves abstaining from food and drink from dawn to sunset, typically 12-14 hours in length.
+
+This information about Sawm (fasting) is based on Section: Beliefs and practices, specifically the Fifth Pillar mentioned earlier.",Beliefs and practices,,,
+What percentage of the global population is Muslim as of 2020?,easy_factual,Demographics,"The percentage of the global population that is Muslim as of 2020 cannot be determined from the provided context. 
+
+[Section: Beliefs and practices] only mentions ""The Five Pillars of Islam"" without providing any information on the global population or the number of Muslims.",Beliefs and practices,,,
+What is the difference between Sunni and Shia beliefs about succession after Muhammad?,comparison,Main branches or denominations,"Based on the provided context in the [Section: Beliefs and practices], I can tell that there is no direct information about the differences between Sunni and Shia beliefs regarding succession after Muhammad. The Five Pillars of Islam mentioned (Shahada, Salah, Zakat, Sawm, and Hajj) do not specifically address this topic.
+
+Therefore, I cannot provide an accurate answer to this question based on the provided context.",Beliefs and practices,,,
+What is Sufism?,easy_factual,Mysticism > Sufism,"Unfortunately, the provided context does not mention Sufism explicitly. The Five Pillars of Islam mentioned are Shahada, Salah, Zakat, Sawm, and Hajj, but there is no information about Sufism in this section.
+
+My answer is based on [Section: Beliefs and practices].",Beliefs and practices,,,
+What is Zakat and how is it calculated?,easy_factual,Acts of worship > Almsgiving,"I'm unable to provide a specific calculation method for Zakat as the context does not specify how it is calculated. According to Section [Section: Beliefs and practices] in the provided context, Zakat is mentioned as one of the Five Pillars of Islam, but the details on its calculation are not specified.
+
+However, I can tell you that Zakat is a form of obligatory charity in Islam, which involves giving a portion of one's wealth to those who are less fortunate. (Section: Beliefs and practices)",Beliefs and practices,,,
+What is the capital of France?,out_of_scope,,"The capital of France is not mentioned in the provided context. The context only discusses the Five Pillars of Islam and their meanings, but does not cover geographical or political information such as national capitals.
+
+[Based on Section: Beliefs and practices]",Beliefs and practices,,,
+What is the population of penguins in Antarctica?,out_of_scope,,"I don't have enough information to provide an answer about the population of penguins in Antarctica. The provided context only discusses the Five Pillars of Islam and does not mention anything related to penguins or Antarctica.
+
+[Based on Section: Beliefs and practices]",Beliefs and practices,,,

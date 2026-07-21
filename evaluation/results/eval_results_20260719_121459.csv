@@ -1,0 +1,31 @@
+question,type,expected_section,answer,retrieved_sources,manual_correct,manual_grounded,notes
+What are the Five Pillars of Islam?,easy_factual,Acts of worship,"The Five Pillars of Islam are the Shahada (declaration of faith), the five daily prayers, Zakat (almsgiving), fasting during Ramadan, and the Hajj pilgrimage. 
+
+This information can be found in the [Section: Acts of worship].","Acts of worship, Articles of faith, Islamist movements",,,
+What is Ramadan and what does fasting during it involve?,easy_factual,Acts of worship > Fasting,"Based on the provided context, Ramadan refers to a month during which fasting is considered a duty for Muslims. 
+
+Fasting during Ramadan involves abstaining from food and drink, as well as other forms of consumption such as smoking, from dawn to sunset. The fast is intended to encourage a feeling of nearness to God by restraining oneself for God's sake from what is otherwise permissible.
+
+This information is based on the section: Acts of worship > Fasting.","Acts of worship > Fasting, Acts of worship, Acts of worship > Prayer",,,
+What percentage of the global population is Muslim as of 2020?,easy_factual,Demographics,"According to the [Section: Demographics], as of 2020, about 25.6% of the global population are Muslims.
+
+[Based on Section: Demographics]","Demographics, Demographics > Pew Research Center, Main branches or denominations > Non-denominational Muslims",,,
+What is the difference between Sunni and Shia beliefs about succession after Muhammad?,comparison,Main branches or denominations,"According to the provided context, the difference between Sunni and Shia beliefs about succession after Muhammad lies in who they consider as the rightful successor.
+
+Sunni Muslims believe that Abu Bakr was the first rightful caliph after Muhammad (Section: Main branches or denominations > Sunni), while Shias maintain that Muhammad designated Ali as his successor and Imam (spiritual and political leader) after him, but was prevented from succeeding Muhammad due to other companions selecting Abū Bakr (Section: Main branches or denominations > Shia).
+
+Shias also claim that the community deliberately ignored Ali's nomination, citing Umar's appointment by Abu Bakr, historical evidence, and the Qur'an's stance that majority does not imply legitimacy (Section: Main branches or denominations > Shia).","Main branches or denominations > Shia, Main branches or denominations > Sunni, History > Early Islamic period (632–750)",,,
+What is Sufism?,easy_factual,Mysticism > Sufism,"Sufism (Arabic: تصوف, tasawwuf) is a mystical ascetic approach to Islam that seeks to find a direct personal experience of God. (Section: Mysticism > Sufism)
+
+According to classical Sufi scholars, the objective of tasawwuf is ""the reparation of the heart and turning it away from all else but God"", through ""intuitive and emotional faculties"" that one must be trained to use. Ahmad ibn Ajiba defined tasawwuf as ""a return to the tradition, and its beginning is knowledge, its middle is action [upon that knowledge], and its end is a gift [from Allah]."" (Section: Mysticism > Sufism)
+
+Sufism is not a sect of Islam, but rather an approach within Islamic traditions. Its adherents belong to various Muslim denominations, including Sunni and Shia.","Mysticism > Sufism, Mysticism > Sufism, Influences on other religions",,,
+What is Zakat and how is it calculated?,easy_factual,Acts of worship > Almsgiving,"Zakat (also spelled Zakāt or Zakah) is a type of almsgiving characterized by the giving of a fixed portion (2.5% annually) of accumulated wealth by those who can afford it to help the poor or needy.
+
+The calculation of Zakat is based on the information provided in the context, which states that it is 2.5% annually of accumulated wealth. There is no further explanation or detail on how this calculation is applied, and no specific guidance on when or from what assets the Zakat should be paid.
+
+[Section: Acts of worship > Almsgiving]","Acts of worship > Almsgiving, Acts of worship, Acts of worship > Prayer",,,
+What is the capital of France?,out_of_scope,,"The context does not provide any information about the capital of France. The provided sections are related to demographics and mysticism, specifically discussing Muslim populations and Sufism, but do not mention France or its capital. (Section: Demographics > Pew Research Center)","Demographics > Pew Research Center, Demographics, Mysticism > Sufism",,,
+What is the population of penguins in Antarctica?,out_of_scope,,"The provided context does not mention the population of penguins in Antarctica. The text only discusses demographics and statistics about Muslims and Islam, but does not provide any information about penguins or their populations.
+
+[Section: Demographics > General Information]","Demographics, Demographics > Pew Research Center, Mysticism > Sufism",,,
