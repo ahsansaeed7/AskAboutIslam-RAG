@@ -7,7 +7,12 @@ sys.path.append(SRC_DIR)
 
 from langchain_chroma import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings as SentenceTransformerEmbeddings
-from langchain_ollama import OllamaLLM as Ollama
+from config import LLM_PROVIDER, OLLAMA_MODEL, GROQ_API_KEY, GROQ_MODEL
+
+if LLM_PROVIDER == "groq":
+    from langchain_groq import ChatGroq
+else:
+    from langchain_ollama import OllamaLLM
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import RunnablePassthrough
 from langchain_core.output_parsers import StrOutputParser
@@ -44,7 +49,10 @@ Answer:""")
 
 
 # --- Step 3: LLM ---
-llm = Ollama(model=OLLAMA_MODEL)
+if LLM_PROVIDER == "groq":
+    llm = ChatGroq(model=GROQ_MODEL, api_key=GROQ_API_KEY)
+else:
+    llm = OllamaLLM(model=OLLAMA_MODEL)
 
 
 # --- Step 4: Helper to format retrieved docs with section metadata ---
